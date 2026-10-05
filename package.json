@@ -10,7 +10,7 @@
     "vercel": "vercel dev",
     "cloudflare": "wrangler dev",
     "build": "node --check api/worker.js",
-    "deploy": "wrangler deploy"
+    "deploy": "npx --yes wrangler deploy"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
